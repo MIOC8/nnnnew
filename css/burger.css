@@ -1,0 +1,364 @@
+.burger {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: 1s;
+}
+
+.burger img {
+    position: absolute;
+}
+
+@keyframes identifier3 {
+    0% {
+        stroke-dashoffset: 3000;
+        stroke-dasharray: 3000;
+    }
+
+    50% {
+        stroke-dasharray: 3000;
+        stroke-dashoffset: 0;
+    }
+
+    100% {
+        stroke-dashoffset: 3000;
+        stroke-dasharray: 3000;
+    }
+}
+
+.burger svg {
+    position: absolute;
+    z-index: -16;
+    right: -30px;
+    top: -230px;
+    fill: #fff;
+    width: 600px;
+    stroke: #adadff;
+    stroke-width: 4px;
+    height: 500px;
+    animation: identifier3 30s infinite;
+    transition: 1s;
+
+}
+
+.burger:hover svg {
+    transition: 1s;
+    fill: #adadff;
+    transition-property: fill;
+}
+
+.burger:hover .burger1 {
+    transition: 1s;
+    top: -210px;
+    width: 540px;
+    z-index: 3;
+    right: -60px;
+    transform: rotateZ(-25deg);
+}
+
+.burger:hover .burger2 {
+    transition: 1s;
+    top: -90px;
+    width: 300px;
+    right: 115px;
+
+    transform: rotateZ(-20deg);
+}
+
+.burger:hover .burger2-2 {
+    transition: 1s;
+    top: 60px;
+    right: 150px;
+    z-index: -15;
+    width: 30px;
+    width: 260px;
+    transform: rotateZ(-24deg);
+}
+
+
+.burger:hover .burger3 {
+    transition: 1s;
+    top: 0px;
+    right: 210px;
+    z-index: -2;
+    transform: rotateZ(-10deg);
+}
+
+.burger:hover .burger3-2 {
+    top: 10px;
+    right: 270px;
+    z-index: -2;
+    transform: rotateZ(10deg);
+}
+
+.burger:hover .burger3-3 {
+    top: 14px;
+    z-index: -2;
+    right: 120px;
+    transform: rotateZ(-20deg);
+}
+
+.burger:hover .burger4 {
+    transition: 1s;
+    top: -14px;
+    right: 120px;
+    transform: rotateZ(10deg);
+}
+
+.burger:hover .burger4-1 {
+    transition: 1s;
+    top: -16px;
+    right: 280px;
+    transform: rotateZ(-5deg);
+}
+
+.burger:hover .burger4-2 {
+    transition: 1s;
+    top: -10px;
+    right: 90px;
+    opacity: 0;
+    transform: rotateZ(-15deg);
+}
+
+.burger:hover .burger4-3 {
+    transition: 1s;
+    top: -15px;
+    right: 200px;
+    transform: rotateZ(30deg);
+}
+
+.burger:hover .burger5 {
+    transition: 1s;
+    top: -25px;
+    right: 120px;
+    transform: rotateZ(10deg);
+}
+
+
+.burger:hover .burger6 {
+    transition: 1s;
+    top: 50px;
+    right: 290px;
+    z-index: -11;
+    transform: rotateZ(-30deg);
+}
+
+.burger:hover .burger6-2 {
+    top: 45px;
+    z-index: -10;
+    right: 120px;
+    transform: rotateZ(-30deg);
+}
+
+.burger:hover .burger6-3 {
+    top: 55px;
+    width: 75px;
+    z-index: -10;
+    right: 340px;
+    transform: rotateZ(10deg);
+}
+
+.burger:hover .burger6-5 {
+    top: 15px;
+    right: 140px;
+    transform: rotateZ(-10deg);
+}
+
+.burger:hover .burger6-4 {
+    opacity: 0;
+}
+
+.burger:hover .burger7 {
+    transition: 1s;
+    top: 44px;
+    width: 340px;
+    right: 100px;
+    z-index: -13;
+    transform: rotateZ(15deg);
+}
+
+.burger:hover .burger8 {
+    transition: 1s;
+    top: 60px;
+    width: 380px;
+    right: 100px;
+    z-index: -14;
+    transform: rotateZ(10deg);
+}
+
+.burger:hover .burger8-2 {
+    transition: 1s;
+    top: -85px;
+    width: 380px;
+    right: 80px;
+    z-index: 2;
+    transform: rotateZ(5deg);
+}
+
+.burger:hover .burger9 {
+    transition: 1s;
+    top: 65px;
+    width: 420px;
+    right: 45px;
+    z-index: -16;
+    transform: rotateZ(15deg);
+}
+
+.burger1 {
+    top: -280px;
+    right: -100px;
+    z-index: 2;
+    width: 600px;
+    transition: 1s;
+}
+
+.burger2 {
+    top: -170px;
+    z-index: 1;
+    right: 130px;
+    transition: 1s;
+    width: 300px;
+}
+
+.burger2-2 {
+    top: 128px;
+    z-index: -10;
+    right: 130px;
+    width: 300px;
+    transform: rotateZ(-40deg);
+}
+
+.burger3 {
+    top: -10px;
+    transition: 1s;
+    right: 150px;
+    width: 120px;
+    z-index: -3;
+    transform: rotateZ(10deg);
+}
+
+
+.burger3-2 {
+    top: -10px;
+    right: 250px;
+    transform: rotateZ(15deg);
+}
+
+.burger3-3 {
+    top: -50px;
+    right: 350px;
+    transform: rotateZ(-35deg);
+}
+
+.burger4 {
+    top: -100px;
+    transition: 1s;
+    z-index: 0;
+    transform: rotateZ(30deg);
+    right: 230px;
+    width: 120px;
+}
+
+.burger4-1 {
+    top: -40px;
+    transform: rotateZ(40deg);
+    right: 120px;
+}
+
+.burger4-2 {
+    z-index: -1;
+    top: -50px;
+    transform: rotateZ(25deg);
+    right: 210px;
+}
+
+.burger4-3 {
+    top: -80px;
+    transform: rotateZ(0deg);
+    right: 320px;
+}
+
+.burger5 {
+    width: 300px;
+    transform: rotateZ(5deg);
+    z-index: -8;
+    top: -30px;
+    transition: 1s;
+    right: 160px;
+}
+
+.burger6 {
+    width: 100px;
+    transform: rotateZ(5deg);
+    z-index: 18;
+    top: 30px;
+    right: 180px;
+    transition: 1s;
+}
+
+.burger6-2 {
+    transform: rotateZ(-35deg);
+    width: 120px;
+    top: -0px;
+    right: 360px;
+}
+
+.burger6-3 {
+    transform: rotateZ(-20deg);
+    top: 40px;
+    width: 150px;
+    right: 340px;
+}
+
+.burger6-4 {
+    transform: rotateZ(5deg);
+    top: 0px;
+    right: 150px;
+    width: 250px;
+}
+
+.burger6-5 {
+    transform: rotateZ(-25deg);
+    top: 40px;
+    right: 180px;
+    width: 200px;
+}
+
+.burger7 {
+    transition: 1s;
+    transform: rotateZ(5deg);
+    top: 85px;
+    z-index: 9;
+    right: 100px;
+    width: 360px;
+}
+
+
+.burger8 {
+    width: 400px;
+    z-index: -2;
+    transform: rotateZ(-10deg);
+    top: 130px;
+    right: 100px;
+    transition: 1s;
+}
+
+.burger8-2 {
+    top: -150px;
+    transform: rotateZ(30deg);
+    right: 90px;
+    display: block;
+
+}
+
+.burger9 {
+    top: 126px;
+    transform: rotateZ(-5deg);
+    right: 0px;
+    z-index: -11;
+    display: block;
+    transition: 1s;
+    width: 500px;
+}
